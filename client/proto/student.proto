@@ -1,7 +1,6 @@
 syntax = "proto3";
 
 package student;
-// import "google/protobuf/empty.proto";
 
 message Student {
     int32  id = 1;

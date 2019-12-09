@@ -20,4 +20,3 @@ this repo will show you about interaction Golang client server with GRPC, this p
 ### Running Client
 
 `go run client/main.go`
-
