@@ -3,7 +3,6 @@ package routes
 import (
 	"context"
 	"encoding/json"
-	"fmt"
 	"log"
 	"net"
 	"os"
@@ -51,7 +50,6 @@ func (GrpcRoute) Get(ctx context.Context, req *rpc.Empty) (*rpc.Reponse, error) 
 	student.Name = "Meliana Lily"
 	student.Nilai = 90
 	student.Nis = "012019018"
-	fmt.Println("sapi")
 	result, err := json.Marshal(&student)
 	if err != nil {
 		return &resp, err
